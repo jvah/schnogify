@@ -1,6 +1,6 @@
 //
-//  Simple_PlayerAppDelegate.h
-//  Simple Player
+//  Schnogify_PlayerAppDelegate.h
+//  Schnogify Player
 //
 //  Created by Daniel Kennett on 10/3/11.
 /*
@@ -33,7 +33,7 @@
 #import <UIKit/UIKit.h>
 #import "CocoaLibSpotify.h"
 
-@interface Simple_PlayerAppDelegate : NSObject <UIApplicationDelegate, SPSessionDelegate, SPSessionPlaybackDelegate> {
+@interface Schnogify_PlayerAppDelegate : NSObject <UIApplicationDelegate, SPSessionDelegate, SPSessionPlaybackDelegate> {
 	UIViewController *_mainViewController;
 	UITextField *_trackURIField;
 	UILabel *_trackTitle;

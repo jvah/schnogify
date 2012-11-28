@@ -1,6 +1,6 @@
 //
-//  Simple_PlayerAppDelegate.m
-//  Simple Player
+//  Schnogify_PlayerAppDelegate.m
+//  Schnogify Player
 //
 //  Created by Daniel Kennett on 10/3/11.
 /*
@@ -30,11 +30,11 @@
  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import "Simple_PlayerAppDelegate.h"
+#import "Schnogify_PlayerAppDelegate.h"
 
 #include "appkey.c"
 
-@implementation Simple_PlayerAppDelegate
+@implementation Schnogify_PlayerAppDelegate
 
 @synthesize window = _window;
 @synthesize mainViewController = _mainViewController;

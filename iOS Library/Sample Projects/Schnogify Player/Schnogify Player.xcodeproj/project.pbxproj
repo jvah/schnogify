@@ -18,7 +18,7 @@
 		50AF49B11439CB6D00E4A5EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AF49B01439CB6D00E4A5EF /* CoreGraphics.framework */; };
 		50AF49B71439CB6D00E4A5EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50AF49B51439CB6D00E4A5EF /* InfoPlist.strings */; };
 		50AF49B91439CB6D00E4A5EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AF49B81439CB6D00E4A5EF /* main.m */; };
-		50AF49BD1439CB6D00E4A5EF /* Simple_PlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AF49BC1439CB6D00E4A5EF /* Simple_PlayerAppDelegate.m */; };
+		50AF49BD1439CB6D00E4A5EF /* Schnogify_PlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AF49BC1439CB6D00E4A5EF /* Schnogify_PlayerAppDelegate.m */; };
 		50AF49C41439CB6D00E4A5EF /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AF49C21439CB6D00E4A5EF /* MainWindow_iPhone.xib */; };
 		50DBB5E11520BF6100BF516F /* SPLoginResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50DBB5E01520BF6100BF516F /* SPLoginResources.bundle */; };
 		50DBB5E41520C2B800BF516F /* RotatableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBB5E31520C2B800BF516F /* RotatableViewController.m */; };
@@ -64,8 +64,8 @@
 		50AF49B61439CB6D00E4A5EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50AF49B81439CB6D00E4A5EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50AF49BA1439CB6D00E4A5EF /* Schnogify Player-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Schnogify Player-Prefix.pch"; sourceTree = "<group>"; };
-		50AF49BB1439CB6D00E4A5EF /* Simple_PlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_PlayerAppDelegate.h; sourceTree = "<group>"; };
-		50AF49BC1439CB6D00E4A5EF /* Simple_PlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_PlayerAppDelegate.m; sourceTree = "<group>"; };
+		50AF49BB1439CB6D00E4A5EF /* Schnogify_PlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Schnogify_PlayerAppDelegate.h; sourceTree = "<group>"; };
+		50AF49BC1439CB6D00E4A5EF /* Schnogify_PlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Schnogify_PlayerAppDelegate.m; sourceTree = "<group>"; };
 		50AF49C31439CB6D00E4A5EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
 		50DBB5E01520BF6100BF516F /* SPLoginResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SPLoginResources.bundle; path = ../../../SPLoginResources.bundle; sourceTree = "<group>"; };
 		50DBB5E21520C2B800BF516F /* RotatableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatableViewController.h; sourceTree = "<group>"; };
@@ -140,8 +140,8 @@
 		50AF49B21439CB6D00E4A5EF /* Schnogify Player */ = {
 			isa = PBXGroup;
 			children = (
-				50AF49BB1439CB6D00E4A5EF /* Simple_PlayerAppDelegate.h */,
-				50AF49BC1439CB6D00E4A5EF /* Simple_PlayerAppDelegate.m */,
+				50AF49BB1439CB6D00E4A5EF /* Schnogify_PlayerAppDelegate.h */,
+				50AF49BC1439CB6D00E4A5EF /* Schnogify_PlayerAppDelegate.m */,
 				50DBB5E21520C2B800BF516F /* RotatableViewController.h */,
 				50DBB5E31520C2B800BF516F /* RotatableViewController.m */,
 				50AF49C21439CB6D00E4A5EF /* MainWindow_iPhone.xib */,
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50AF49B91439CB6D00E4A5EF /* main.m in Sources */,
-				50AF49BD1439CB6D00E4A5EF /* Simple_PlayerAppDelegate.m in Sources */,
+				50AF49BD1439CB6D00E4A5EF /* Schnogify_PlayerAppDelegate.m in Sources */,
 				50DBB5E41520C2B800BF516F /* RotatableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
