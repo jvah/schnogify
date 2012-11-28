@@ -2,26 +2,26 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">1296</int>
-		<string key="IBDocument.SystemVersion">11D50</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2182</string>
-		<string key="IBDocument.AppKitVersion">1138.32</string>
-		<string key="IBDocument.HIToolboxVersion">568.00</string>
+		<string key="IBDocument.SystemVersion">12C60</string>
+		<string key="IBDocument.InterfaceBuilderVersion">2844</string>
+		<string key="IBDocument.AppKitVersion">1187.34</string>
+		<string key="IBDocument.HIToolboxVersion">625.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">1181</string>
+			<string key="NS.object.0">1930</string>
 		</object>
 		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<string>IBProxyObject</string>
 			<string>IBUIButton</string>
-			<string>IBUIViewController</string>
 			<string>IBUICustomObject</string>
-			<string>IBUILabel</string>
-			<string>IBUIWindow</string>
-			<string>IBUITextField</string>
 			<string>IBUIImageView</string>
+			<string>IBUILabel</string>
 			<string>IBUISlider</string>
+			<string>IBUITextField</string>
 			<string>IBUIView</string>
+			<string>IBUIViewController</string>
+			<string>IBUIWindow</string>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -42,7 +42,7 @@
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 			</object>
 			<object class="IBUIWindow" id="62075450">
-				<reference key="NSNextResponder"/>
+				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">292</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -56,7 +56,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{175, 230}, {419, 31}}</string>
 								<reference key="NSSuperview" ref="938301153"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="929031875"/>
 								<string key="NSReuseIdentifierKey">_NS:310</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -94,7 +93,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{175, 201}, {81, 21}}</string>
 								<reference key="NSSuperview" ref="938301153"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="16836658"/>
 								<string key="NSReuseIdentifierKey">_NS:327</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -106,6 +104,7 @@
 								<object class="NSColor" key="IBUITextColor" id="879742409">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MCAwIDAAA</bytes>
+									<string key="IBUIColorCocoaTouchKeyPath">darkTextColor</string>
 								</object>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -127,7 +126,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{522, 269}, {72, 37}}</string>
 								<reference key="NSSuperview" ref="938301153"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="734621280"/>
 								<string key="NSReuseIdentifierKey">_NS:237</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -165,7 +163,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{234, 414}, {300, 300}}</string>
 								<reference key="NSSuperview" ref="938301153"/>
-								<reference key="NSWindow"/>
 								<string key="NSReuseIdentifierKey">_NS:544</string>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -175,7 +172,6 @@
 								<int key="NSvFlags">290</int>
 								<string key="NSFrame">{{234, 356}, {300, 21}}</string>
 								<reference key="NSSuperview" ref="938301153"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="782156445"/>
 								<string key="NSReuseIdentifierKey">_NS:327</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -206,7 +202,6 @@
 								<int key="NSvFlags">290</int>
 								<string key="NSFrame">{{234, 385}, {300, 21}}</string>
 								<reference key="NSSuperview" ref="938301153"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="885668054"/>
 								<string key="NSReuseIdentifierKey">_NS:327</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -228,7 +223,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{173, 314}, {423, 23}}</string>
 								<reference key="NSSuperview" ref="938301153"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="365269553"/>
 								<string key="NSReuseIdentifierKey">_NS:607</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -241,7 +235,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{175, 72}, {223, 29}}</string>
 								<reference key="NSSuperview" ref="938301153"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="841019623"/>
 								<string key="NSReuseIdentifierKey">_NS:327</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -249,7 +242,7 @@
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<string key="IBUIText">Simple Player</string>
+								<string key="IBUIText">Schnogify Player</string>
 								<reference key="IBUITextColor" ref="879742409"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -271,7 +264,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{175, 109}, {419, 40}}</string>
 								<reference key="NSSuperview" ref="938301153"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="553022897"/>
 								<string key="NSReuseIdentifierKey">_NS:327</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -288,13 +280,13 @@
 								<int key="IBUILineBreakMode">0</int>
 								<reference key="IBUIFontDescription" ref="845274097"/>
 								<reference key="IBUIFont" ref="626627008"/>
+								<double key="preferredMaxLayoutWidth">419</double>
 							</object>
 							<object class="IBUISlider" id="308213377">
 								<reference key="NSNextResponder" ref="938301153"/>
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{326, 760}, {200, 23}}</string>
 								<reference key="NSSuperview" ref="938301153"/>
-								<reference key="NSWindow"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -307,7 +299,6 @@
 								<int key="NSvFlags">290</int>
 								<string key="NSFrame">{{244, 759}, {76, 21}}</string>
 								<reference key="NSSuperview" ref="938301153"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="308213377"/>
 								<string key="NSReuseIdentifierKey">_NS:327</string>
 								<bool key="IBUIOpaque">NO</bool>
@@ -327,7 +318,6 @@
 						</object>
 						<string key="NSFrame">{{0, 20}, {768, 1004}}</string>
 						<reference key="NSSuperview" ref="62075450"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="360089561"/>
 						<string key="NSReuseIdentifierKey">_NS:195</string>
 						<object class="NSColor" key="IBUIBackgroundColor">
@@ -339,8 +329,6 @@
 					</object>
 				</object>
 				<string key="NSFrameSize">{768, 1024}</string>
-				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="938301153"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
@@ -793,6 +781,6 @@
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<string key="IBCocoaTouchPluginVersion">1181</string>
+		<string key="IBCocoaTouchPluginVersion">1930</string>
 	</data>
 </archive>

@@ -57,14 +57,14 @@
 		5002BD801439E90400FEAB3C /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		500EC8C21439D54E00E8A60C /* CocoaLibSpotify iOS Library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CocoaLibSpotify iOS Library.xcodeproj"; path = "../../CocoaLibSpotify iOS Library.xcodeproj"; sourceTree = "<group>"; };
 		50A26BEB1439D7AA00A0C876 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		50AF49A81439CB6D00E4A5EF /* Simple Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AF49A81439CB6D00E4A5EF /* Schnogify Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Schnogify Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AF49AC1439CB6D00E4A5EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		50AF49AE1439CB6D00E4A5EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		50AF49B01439CB6D00E4A5EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		50AF49B41439CB6D00E4A5EF /* Simple Player-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Player-Info.plist"; sourceTree = "<group>"; };
+		50AF49B41439CB6D00E4A5EF /* Schnogify Player-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Schnogify Player-Info.plist"; sourceTree = "<group>"; };
 		50AF49B61439CB6D00E4A5EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50AF49B81439CB6D00E4A5EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		50AF49BA1439CB6D00E4A5EF /* Simple Player-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Player-Prefix.pch"; sourceTree = "<group>"; };
+		50AF49BA1439CB6D00E4A5EF /* Schnogify Player-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Schnogify Player-Prefix.pch"; sourceTree = "<group>"; };
 		50AF49BB1439CB6D00E4A5EF /* Simple_PlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_PlayerAppDelegate.h; sourceTree = "<group>"; };
 		50AF49BC1439CB6D00E4A5EF /* Simple_PlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_PlayerAppDelegate.m; sourceTree = "<group>"; };
 		50AF49C31439CB6D00E4A5EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 		50AF49A91439CB6D00E4A5EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50AF49A81439CB6D00E4A5EF /* Simple Player.app */,
+				50AF49A81439CB6D00E4A5EF /* Schnogify Player.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,10 +157,10 @@
 		50AF49B31439CB6D00E4A5EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				50AF49B41439CB6D00E4A5EF /* Simple Player-Info.plist */,
+				50AF49B41439CB6D00E4A5EF /* Schnogify Player-Info.plist */,
 				50AF49B51439CB6D00E4A5EF /* InfoPlist.strings */,
 				50AF49B81439CB6D00E4A5EF /* main.m */,
-				50AF49BA1439CB6D00E4A5EF /* Simple Player-Prefix.pch */,
+				50AF49BA1439CB6D00E4A5EF /* Schnogify Player-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -168,9 +168,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		50AF49A71439CB6D00E4A5EF /* Simple Player */ = {
+		50AF49A71439CB6D00E4A5EF /* Schnogify Player */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50AF49CE1439CB6E00E4A5EF /* Build configuration list for PBXNativeTarget "Simple Player" */;
+			buildConfigurationList = 50AF49CE1439CB6E00E4A5EF /* Build configuration list for PBXNativeTarget "Schnogify Player" */;
 			buildPhases = (
 				50AF49A41439CB6D00E4A5EF /* Sources */,
 				50AF49A51439CB6D00E4A5EF /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				500EC8CC1439D57500E8A60C /* PBXTargetDependency */,
 			);
-			name = "Simple Player";
+			name = "Schnogify Player";
 			productName = "Simple Player";
-			productReference = 50AF49A81439CB6D00E4A5EF /* Simple Player.app */;
+			productReference = 50AF49A81439CB6D00E4A5EF /* Schnogify Player.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -195,7 +195,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = Spotify;
 			};
-			buildConfigurationList = 50AF49A21439CB6D00E4A5EF /* Build configuration list for PBXProject "Simple Player" */;
+			buildConfigurationList = 50AF49A21439CB6D00E4A5EF /* Build configuration list for PBXProject "Schnogify Player" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -213,7 +213,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				50AF49A71439CB6D00E4A5EF /* Simple Player */,
+				50AF49A71439CB6D00E4A5EF /* Schnogify Player */,
 			);
 		};
 /* End PBXProject section */
@@ -353,15 +353,15 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Simple Player/Simple Player-Prefix.pch";
+				GCC_PREFIX_HEADER = "Simple Player/Schnogify Player-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "Simple Player/Simple Player-Info.plist";
+				INFOPLIST_FILE = "Simple Player/Schnogify Player-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Schnogify Player";
 				USER_HEADER_SEARCH_PATHS = "\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,15 +373,15 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Simple Player/Simple Player-Prefix.pch";
+				GCC_PREFIX_HEADER = "Simple Player/Schnogify Player-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "Simple Player/Simple Player-Info.plist";
+				INFOPLIST_FILE = "Simple Player/Schnogify Player-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-ObjC",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Schnogify Player";
 				USER_HEADER_SEARCH_PATHS = "\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,7 +390,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50AF49A21439CB6D00E4A5EF /* Build configuration list for PBXProject "Simple Player" */ = {
+		50AF49A21439CB6D00E4A5EF /* Build configuration list for PBXProject "Schnogify Player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50AF49CC1439CB6E00E4A5EF /* Debug */,
@@ -399,7 +399,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50AF49CE1439CB6E00E4A5EF /* Build configuration list for PBXNativeTarget "Simple Player" */ = {
+		50AF49CE1439CB6E00E4A5EF /* Build configuration list for PBXNativeTarget "Schnogify Player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50AF49CF1439CB6E00E4A5EF /* Debug */,
