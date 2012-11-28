@@ -36,16 +36,6 @@
 
 @implementation Schnogify_PlayerAppDelegate
 
-@synthesize window = _window;
-@synthesize mainViewController = _mainViewController;
-@synthesize trackURIField = _trackURIField;
-@synthesize trackTitle = _trackTitle;
-@synthesize trackArtist = _trackArtist;
-@synthesize coverView = _coverView;
-@synthesize positionSlider = _positionSlider;
-@synthesize playbackManager = _playbackManager;
-@synthesize currentTrack = _currentTrack;
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 	// Override point for customization after application launch.
@@ -150,42 +140,29 @@
 - (IBAction)playTrack:(id)sender {
 	
 	// Invoked by clicking the "Play" button in the UI.
-	
-	if (self.trackURIField.text.length > 0) {
-		
-		NSURL *trackURL = [NSURL URLWithString:self.trackURIField.text];
-		[[SPSession sharedSession] trackForURL:trackURL callback:^(SPTrack *track) {
+    NSURL *trackURL = [NSURL URLWithString:@"spotify:track:6RNwbzHDMOcaWHyv8285L5"];
+    [[SPSession sharedSession] trackForURL:trackURL callback:^(SPTrack *track) {
 			
-			if (track != nil) {
+        if (track != nil) {
 				
-				[SPAsyncLoading waitUntilLoaded:track timeout:kSPAsyncLoadingDefaultTimeout then:^(NSArray *tracks, NSArray *notLoadedTracks) {
-					[self.playbackManager playTrack:track callback:^(NSError *error) {
+            [SPAsyncLoading waitUntilLoaded:track timeout:kSPAsyncLoadingDefaultTimeout then:^(NSArray *tracks, NSArray *notLoadedTracks) {
+                [self.playbackManager playTrack:track callback:^(NSError *error) {
 						
-						if (error) {
-							UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Cannot Play Track"
-																			message:[error localizedDescription]
-																		   delegate:nil
-																  cancelButtonTitle:@"OK"
-																  otherButtonTitles:nil];
-							[alert show];
-						} else {
-							self.currentTrack = track;
-						}
+                    if (error) {
+                        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Cannot Play Track"
+                                                                        message:[error localizedDescription]
+                                                                       delegate:nil
+                                                              cancelButtonTitle:@"OK"
+                                                              otherButtonTitles:nil];
+                        [alert show];
+                    } else {
+                        self.currentTrack = track;
+                    }
 						
-					}];
-				}];
-			}
-		}];
-		
-		return;
-	}
-	
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Cannot Play Track"
-													message:@"Please enter a track URL"
-												   delegate:nil
-										  cancelButtonTitle:@"OK"
-										  otherButtonTitles:nil];
-	[alert show];
+                }];
+            }];
+        }
+    }];
 }
 
 - (IBAction)setTrackPosition:(id)sender {

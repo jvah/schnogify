@@ -48,7 +48,6 @@
 @property (nonatomic, strong) IBOutlet UIWindow *window;
 @property (nonatomic, strong) IBOutlet UIViewController *mainViewController;
 
-@property (nonatomic, strong) IBOutlet UITextField *trackURIField;
 @property (nonatomic, strong) IBOutlet UILabel *trackTitle;
 @property (nonatomic, strong) IBOutlet UILabel *trackArtist;
 @property (nonatomic, strong) IBOutlet UIImageView *coverView;
