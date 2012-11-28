@@ -137,17 +137,14 @@
 
 #pragma mark -
 
-- (IBAction)playTrack:(id)sender {
-	
-	// Invoked by clicking the "Play" button in the UI.
-    NSURL *trackURL = [NSURL URLWithString:@"spotify:track:6RNwbzHDMOcaWHyv8285L5"];
+- (void)playTrack:(NSURL *)trackURL {
     [[SPSession sharedSession] trackForURL:trackURL callback:^(SPTrack *track) {
-			
+        
         if (track != nil) {
-				
+            
             [SPAsyncLoading waitUntilLoaded:track timeout:kSPAsyncLoadingDefaultTimeout then:^(NSArray *tracks, NSArray *notLoadedTracks) {
                 [self.playbackManager playTrack:track callback:^(NSError *error) {
-						
+                    
                     if (error) {
                         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Cannot Play Track"
                                                                         message:[error localizedDescription]
@@ -158,11 +155,31 @@
                     } else {
                         self.currentTrack = track;
                     }
-						
+                    
                 }];
             }];
         }
     }];
+}
+
+- (IBAction)playRandom:(id)sender {
+	
+	// Invoked by clicking the "Play" button in the UI.
+    NSURL *playlistURL = [NSURL URLWithString:@"spotify:user:kianoni:playlist:4HZaEQ2KYrSlsxORZXQM8R"];
+    [[SPSession sharedSession] playlistForURL:playlistURL callback:^(SPPlaylist *playlist) {
+        if (playlist != nil) {
+            [SPAsyncLoading waitUntilLoaded:playlist timeout:kSPAsyncLoadingDefaultTimeout then:^(NSArray *playlists, NSArray *notLoadedPlaylists) {
+                int randomIndex = arc4random() % playlist.items.count;
+                SPPlaylistItem *playlistItem = [playlist.items objectAtIndex:randomIndex];
+                [self playTrack:playlistItem.itemURL];
+            }];
+        }
+    }];
+}
+
+- (IBAction)playPave:(id)sender {
+	// Invoked by clicking the "Simo" button in the UI.
+    [self playTrack:[NSURL URLWithString:@"spotify:track:6RNwbzHDMOcaWHyv8285L5"]];
 }
 
 - (IBAction)setTrackPosition:(id)sender {
