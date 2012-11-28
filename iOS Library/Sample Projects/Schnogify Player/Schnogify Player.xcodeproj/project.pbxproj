@@ -109,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				500EC8C21439D54E00E8A60C /* CocoaLibSpotify iOS Library.xcodeproj */,
-				50AF49B21439CB6D00E4A5EF /* Simple Player */,
+				50AF49B21439CB6D00E4A5EF /* Schnogify Player */,
 				50AF49AB1439CB6D00E4A5EF /* Frameworks */,
 				50AF49A91439CB6D00E4A5EF /* Products */,
 			);
@@ -139,7 +139,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		50AF49B21439CB6D00E4A5EF /* Simple Player */ = {
+		50AF49B21439CB6D00E4A5EF /* Schnogify Player */ = {
 			isa = PBXGroup;
 			children = (
 				50AF49BB1439CB6D00E4A5EF /* Simple_PlayerAppDelegate.h */,
@@ -151,7 +151,7 @@
 				50DBB5E01520BF6100BF516F /* SPLoginResources.bundle */,
 				50AF49B31439CB6D00E4A5EF /* Supporting Files */,
 			);
-			path = "Simple Player";
+			path = "Schnogify Player";
 			sourceTree = "<group>";
 		};
 		50AF49B31439CB6D00E4A5EF /* Supporting Files */ = {
@@ -182,7 +182,7 @@
 				500EC8CC1439D57500E8A60C /* PBXTargetDependency */,
 			);
 			name = "Schnogify Player";
-			productName = "Simple Player";
+			productName = "Schnogify Player";
 			productReference = 50AF49A81439CB6D00E4A5EF /* Schnogify Player.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -353,9 +353,9 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Simple Player/Schnogify Player-Prefix.pch";
+				GCC_PREFIX_HEADER = "Schnogify Player/Schnogify Player-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "Simple Player/Schnogify Player-Info.plist";
+				INFOPLIST_FILE = "Schnogify Player/Schnogify Player-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -373,9 +373,9 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Simple Player/Schnogify Player-Prefix.pch";
+				GCC_PREFIX_HEADER = "Schnogify Player/Schnogify Player-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "Simple Player/Schnogify Player-Info.plist";
+				INFOPLIST_FILE = "Schnogify Player/Schnogify Player-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-all_load",
